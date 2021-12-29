@@ -7,7 +7,7 @@ export default function App() {
 	const [currentAccount, setCurrentAccount] = useState('')
 	const [waveCount, setWaveCount] = useState(0)
 	const { ethereum } = window
-	const contractAddress = '0x4F23B7E9aA2e1b3fB8C6f5F65a39acB9499729e7'
+	const contractAddress = ''
 	const contractABI = abi.abi
 
 	useEffect(() => {
